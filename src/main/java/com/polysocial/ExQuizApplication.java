@@ -4,10 +4,9 @@ import org.modelmapper.ModelMapper;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
-import org.springframework.web.client.RestTemplate;
 
 @SpringBootApplication
-public class PolysocialDemoBackEndApplication {
+public class ExQuizApplication {
 
     @Bean
     public ModelMapper modelMapper(){
@@ -15,7 +14,7 @@ public class PolysocialDemoBackEndApplication {
     }
 
     public static void main(String[] args) {
-        SpringApplication.run(PolysocialDemoBackEndApplication.class, args);
+        SpringApplication.run(ExQuizApplication.class, args);
     }
 
 }
